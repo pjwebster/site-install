@@ -6,7 +6,7 @@ metadata:
   name: "first-sno"
   namespace: "first-sno"
 spec:
-  baseDomain: "first-sno.pauwebst-hcp.apacshift.support"
+  baseDomain: "pauwebst-hcp.apacshift.support"
   pullSecretRef:
     name: "managed-cluster-credentials"
   clusterImageSetNameRef: "openshift-4.16.0"
