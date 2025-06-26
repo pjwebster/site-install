@@ -9,7 +9,7 @@ spec:
   baseDomain: "first-sno.pauwebst-hcp.apacshift.support"
   pullSecretRef:
     name: "managed-cluster-credentials"
-  clusterImageSetNameRef: "openshift-4.16"
+  clusterImageSetNameRef: "openshift-4.16.0"
   clusters:
   - clusterName: "first-sno"
     networkType: "OVNKubernetes"
